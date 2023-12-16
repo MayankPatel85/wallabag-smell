@@ -1,77 +1,34 @@
 # wallabag - Android App ![Build status](https://github.com/wallabag/android-app/workflows/CI/badge.svg?branch=master)
 
-<img src="/readme/wallabag logo.png" align="left"
-width="200" hspace="10" vspace="10">
+### Plot between LOC and total number of smells versus  commits:
 
-wallabag is a self-hosted read-it-later app.  
-Unlike other services, wallabag is free and open source.  
-wallabag for Android is a companion app for [wallabag](https://www.wallabag.org). You need a wallabag account first, which you are going to use in this app.
+<img width="715" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/b6c191c3-3411-4b1b-a74e-78c602c2fcd6">
 
-wallabag is available on the Google Play Store and F-Droid.
+### Plot between Implementation smell density and  commits:
 
-<p align="left">
-<a href="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche">
-    <img alt="Get it on Google Play"
-        height="80"
-        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
-</a>  
-<a href="https://f-droid.org/app/fr.gaulupeau.apps.InThePoche">
-    <img alt="Get it on F-Droid"
-        height="80"
-        src="https://f-droid.org/badge/get-it-on.png" />
-        </a>
-        </p>
+<img width="674" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/782ce5cb-20ef-4929-b6b9-8092ce090e7a">
 
-## About
+### Plot between Design smell density and  commits:
 
-wallabag has been made for you to comfortably read and archive your articles.
-You can download wallabag from wallabag.org and follow the instructions to install it on your own server.
-Alternatively, you can directly sign up for [wallabag.it](https://wallabag.it).
+<img width="583" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/affb1776-09b7-4243-b1ea-36c224b8c922">
 
-This android application allows you to put a link in your wallabag instance, letting you read your wallabag links offline.
+### Plot between Architecture smell density and  commits:
 
-This application was originally created by Jonathan GAULUPEAU and released under the GNU GPLv3.
-wallabag is a creation from Nicolas Lœuillet released under the MIT License (Expat License).
+<img width="604" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/b0ecfcfe-64ce-4721-bd1c-b113456821c3">
 
-## Features
+### Plot between LCOM and  commits:
 
-The android app lets you:
-- Connect to your self-hosted wallabag instance or connect to your [wallabag.it](https://wallabag.it) account.
-- Supports wallabag 2.0 and higher.
-- Completely ad-free.
-- Increase and decrease the size of the font and also switch between a serif or sans-serif font for a more comfortable reading experience.
-- Switch between numerous themes.
-- Possibility to cache images locally for offline reading.
-- Get articles read via Text-to-Speech feature.
-- Needs no special permissions on Android 6.0+.
+<img width="565" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/e173e93a-f5cd-4cb6-ad97-699388228f1a">
 
-## Screenshots
+### Plot between WMC and  commits:
 
-[<img src="/readme/Wallabag%20Reading%20List.png" align="left"
-width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
-[<img src="/readme/Wallabag%20Article%20View.png" align="center"
-width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Article%20View.png)
+<img width="600" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/630890e6-cdb5-442f-ab01-837425452845">
 
-## Permissions
+### Plot between LOC and  commits:
 
-On Android versions prior to Android 6.0, wallabag requires the following permissions:
-- Full Network Access.
-- View Network Connections.
-- Run at startup.
-- Read and write access to external storage.
+<img width="598" alt="image" src="https://github.com/MayankPatel85/wallabag-smell/assets/72483518/7c6d7bfe-92ce-4601-87d0-b5d02c20016f">
 
-The "Run at startup" permission is only used if Auto-Sync feature is enabled and is not utilised otherwise. The network access permissions are made use of for downloading content. The external storage permission is used to cache article images for viewing offline.
+### Observations:
 
-## Contributing
-
-wallabag app is a free and open source project developed by volunteers. Any contributions are welcome. Here are a few ways you can help:
- * [Report bugs and make suggestions.](https://github.com/wallabag/android-app/issues)
- * [Translate the app](https://hosted.weblate.org/projects/wallabag/android-app/) (you don't have to create an account).
- * Write some code. Please follow the code style used in the project to make a review process faster.
-
-## License
-
-This application is released under GNU GPLv3 (see [LICENSE](LICENSE)).
-Some of the used libraries are released under different licenses.
+- As LOC increased from commit Dec 31, 19 to commit Jun 25, 20, the total number of smells also increased.
+- Design smell density increased significantly from commit Dec 31, 19 to commit Dec 14, 20, while Implementation smell density and Architecture smell density changed slightly.
